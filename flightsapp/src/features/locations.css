@@ -1,0 +1,17 @@
+.box {
+  border-radius: 8px;
+  margin: 0 16px;
+  padding: 8px 16px 48px;
+  position: relative;
+  background-color: #3c4043;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+  min-width: 796px;
+  max-width: 900px;
+  max-height: 100px;
+  width: 100%;
+}
+.dropdownmenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

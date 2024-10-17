@@ -1,0 +1,43 @@
+.triangle {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.triangle.rotated {
+  transform: rotate(180deg);
+  margin-top: 10px;
+}
+.dropdownToggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.dropdownToggle:hover {
+  background-color: #373a3d;
+}
+
+.dropdownToggle.open {
+  background-color: rgba(138, 180, 248, 0.4);
+  border-bottom: 2px solid #8ab4f8;
+}
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: #e8eaed;
+  padding-top: 2px;
+  align-items: center;
+  justify-content: center;
+}
